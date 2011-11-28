@@ -1,0 +1,1108 @@
+Tplaycam
+v7
+r0
+t344098172.114339
+cCheck dependencies
+cCpResource build/Debug-iphoneos/playcam.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/Info.plist playcam-Info.plist
+cCompileXIB /Users/saku/Documents/iOS/playcam/MainWindow.xib
+cCompileXIB /Users/saku/Documents/iOS/playcam/playcamViewController.xib
+cCompileXIB /Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.xib
+cCopyPNGFile /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playmail.png playmail.png
+cProcessPCH /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch.gch playcam_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch.gch playcam_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/main.o /Users/saku/Documents/iOS/playcam/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcamAppDelegate.o /Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcamViewController.o /Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/PhotoSettingsViewController.o /Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIAuthenticationDialog.o /Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDataCompressor.o /Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDataDecompressor.o /Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDownloadCache.o /Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIFormDataRequest.o /Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIHTTPRequest.o /Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIInputStream.o /Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASINetworkQueue.o /Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/Reachability.o /Users/saku/Documents/iOS/playcam/Classes/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/main.o /Users/saku/Documents/iOS/playcam/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcamAppDelegate.o /Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcamViewController.o /Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/PhotoSettingsViewController.o /Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcam normal armv6
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIAuthenticationDialog.o /Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDataCompressor.o /Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDataDecompressor.o /Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDownloadCache.o /Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIFormDataRequest.o /Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIHTTPRequest.o /Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIInputStream.o /Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASINetworkQueue.o /Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/Reachability.o /Users/saku/Documents/iOS/playcam/Classes/Reachability.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcam normal armv7
+cCreateUniversalBinary /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playcam normal "armv6 armv7"
+cGenerateDSYMFile /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app.dSYM /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playcam
+cProcessProductPackaging "/Users/saku/Library/MobileDevice/Provisioning Profiles/145C10AE-4C51-4A21-8994-F1B5F01DCE5E.mobileprovision" /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/embedded.mobileprovision
+cTouch /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam.xcent
+cCodeSign /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D54D1B500000000002CAD60
+t1297404341
+s2927968
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004D54D12700000000000004CF
+t1297404199
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004D54CFAF0000000000000AB3
+t1297403823
+s2739
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004D5DE7A400000000000001D0
+t1297999780
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004D54D32C00000000000000EB
+t1297404716
+s235
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004D54D32D0000000000094C50
+t1297404717
+s609360
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D49500000000000000C4
+t1297405077
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D54D0D40000000000001A58
+t1297404116
+s6744
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D54D0E700000000000B0CA0
+t1297404135
+s724128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004D4F6E4A0000000000000DE2
+t1297051210
+s3554
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/arpa/inet.h
+c000000004D54C5330000000000001533
+t1297401139
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/ifaddrs.h
+c000000004D54C53300000000000008F5
+t1297401139
+s2293
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/netdb.h
+c000000004D54C533000000000000307F
+t1297401139
+s12415
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/netinet/in.h
+c000000004D54CB250000000000006BAC
+t1297402661
+s27564
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/netinet6/in6.h
+c000000004D54CB24000000000000638F
+t1297402660
+s25487
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdio.h
+c000000004D4F6E910000000000004763
+t1297051281
+s18275
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/socket.h
+c000000004D54CB290000000000005ACF
+t1297402665
+s23247
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/zlib.h
+c000000004D54C61500000000000102A5
+t1297401365
+s66213
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/libz.dylib
+c000000004D54C6160000000000020FE0
+t1297401366
+s135136
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.h
+c000000004E7744FA0000000000000453
+t1316439290
+s1107
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m
+c000000004E7744FA0000000000003E08
+t1316439290
+s15880
+i"ASIAuthenticationDialog.h"
+i"ASIHTTPRequest.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASICacheDelegate.h
+c000000004E7744FA000000000000141F
+t1316439290
+s5151
+i<Foundation/Foundation.h>
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.h
+c000000004E7744FA000000000000072C
+t1316439290
+s1836
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m
+c000000004E7744FA0000000000001A63
+t1316439290
+s6755
+i"ASIDataCompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.h
+c000000004E7744FA00000000000006A3
+t1316439290
+s1699
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m
+c000000004E7744FA0000000000001916
+t1316439290
+s6422
+i"ASIDataDecompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.h
+c000000004E7744FA00000000000007CC
+t1316439290
+s1996
+i<Foundation/Foundation.h>
+i"ASICacheDelegate.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m
+c000000004E7744FA0000000000004561
+t1316439290
+s17761
+i"ASIDownloadCache.h"
+i"ASIHTTPRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.h
+c000000004E7744FA0000000000000A85
+t1316439290
+s2693
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m
+c000000004E7744FA0000000000002BD9
+t1316439290
+s11225
+i"ASIFormDataRequest.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.h
+c000000004E7744FA000000000000AFE9
+t1316439290
+s45033
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<UIKit/UIKit.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m
+c000000004E7744FA000000000002CC23
+t1316439290
+s183331
+i"ASIHTTPRequest.h"
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+i"ASIDataDecompressor.h"
+i"ASIDataCompressor.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequestConfig.h
+c000000004E7744FA0000000000000511
+t1316439290
+s1297
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequestDelegate.h
+c000000004E7744FA000000000000063E
+t1316439290
+s1598
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.h
+c000000004E7744FA00000000000003C9
+t1316439290
+s969
+i<Foundation/Foundation.h>
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m
+c000000004E7744FA0000000000000C32
+t1316439290
+s3122
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.h
+c000000004E7744FA000000000000120D
+t1316439290
+s4621
+i<Foundation/Foundation.h>
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m
+c000000004E7744FA0000000000002C8D
+t1316439290
+s11405
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/ASIProgressDelegate.h
+c000000004E7744FA0000000000000678
+t1316439290
+s1656
+
+N/Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.h
+c000000004ED24A1E000000000000024A
+t1322404382
+s586
+i<UIKit/UIKit.h>
+i<coreLocation/CoreLocation.h>
+
+N/Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m
+c000000004ED24B8900000000000013BA
+t1322404745
+s5050
+i"PhotoSettingsViewController.h"
+i"ASIFormDataRequest.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.xib
+c000000004ED24BB600000000000050A6
+t1322404790
+s20646
+
+N/Users/saku/Documents/iOS/playcam/Classes/Reachability.h
+c000000004E7744FA0000000000001D25
+t1316439290
+s7461
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i<netinet/in.h>
+
+N/Users/saku/Documents/iOS/playcam/Classes/Reachability.m
+c000000004E7744FA0000000000005E0C
+t1316439290
+s24076
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.h
+c000000004ED21FD000000000000001EE
+t1322393552
+s494
+i<UIKit/UIKit.h>
+
+N/Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m
+c000000004ED21FD00000000000000AB9
+t1322393552
+s2745
+i"playcamAppDelegate.h"
+i"playcamViewController.h"
+
+N/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.h
+c000000004ED223310000000000000135
+t1322394417
+s309
+i<UIKit/UIKit.h>
+
+N/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m
+c000000004ED246BC0000000000000A22
+t1322403516
+s2594
+i"playcamViewController.h"
+i"PhotoSettingsViewController.h"
+
+N/Users/saku/Documents/iOS/playcam/MainWindow.xib
+c000000004ED21FD00000000000004E29
+t1322393552
+s20009
+
+N/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app
+t1322405372
+s442
+
+N/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app.dSYM
+t1322405368
+s102
+
+N/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/Info.plist
+t1322403853
+s839
+
+N/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/MainWindow.nib
+t1322403854
+s1681
+
+N/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/PhotoSettingsViewController.nib
+t1322405368
+s2987
+
+N/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/PkgInfo
+t1322403853
+s8
+
+N/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/ResourceRules.plist
+t1322403853
+s485
+
+N/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/embedded.mobileprovision
+t1322403864
+s7385
+
+N/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playcam
+t1322405368
+s777424
+
+N/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playcamViewController.nib
+t1322405368
+s3206
+
+N/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playmail.png
+t1322403856
+s199085
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIAuthenticationDialog.o
+t1322403859
+s103928
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDataCompressor.o
+t1322403859
+s22460
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDataDecompressor.o
+t1322403859
+s22364
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDownloadCache.o
+t1322403859
+s57872
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIFormDataRequest.o
+t1322403859
+s45436
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIHTTPRequest.o
+t1322403863
+s477244
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIInputStream.o
+t1322403859
+s27252
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASINetworkQueue.o
+t1322403860
+s56696
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/PhotoSettingsViewController.o
+t1322405368
+s56052
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/Reachability.o
+t1322403860
+s31848
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/main.o
+t1322403858
+s6436
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcam
+t1322405368
+s384632
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcam.LinkFileList
+c000000004ED2480D0000000000000649
+t1322403853
+s1609
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcamAppDelegate.o
+t1322403858
+s50720
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcamViewController.o
+t1322404404
+s46096
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIAuthenticationDialog.o
+t1322403860
+s102776
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDataCompressor.o
+t1322403860
+s22352
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDataDecompressor.o
+t1322403861
+s22296
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDownloadCache.o
+t1322403861
+s56660
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIFormDataRequest.o
+t1322403861
+s44644
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIHTTPRequest.o
+t1322403863
+s467448
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIInputStream.o
+t1322403863
+s26980
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASINetworkQueue.o
+t1322403863
+s56092
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/PhotoSettingsViewController.o
+t1322405368
+s55884
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/Reachability.o
+t1322403863
+s31012
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/main.o
+t1322403860
+s6420
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcam
+t1322405368
+s372452
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcam.LinkFileList
+c000000004ED2480D0000000000000649
+t1322403853
+s1609
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcamAppDelegate.o
+t1322403860
+s50612
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcamViewController.o
+t1322404404
+s46032
+
+N/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam.xcent
+t1322403864
+s420
+
+N/Users/saku/Documents/iOS/playcam/main.m
+c000000004ED21FD00000000000000178
+t1322393552
+s376
+i<UIKit/UIKit.h>
+
+N/Users/saku/Documents/iOS/playcam/playcamViewController.xib
+c000000004ED24BC90000000000004F3D
+t1322404809
+s20285
+
+N/Users/saku/Documents/iOS/playcam/playcam_Prefix.pch
+c000000004ED21FD000000000000000B7
+t1322393552
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/saku/Documents/iOS/playcam/playmail.png
+c000000004ECE853200000000000375EA
+t1322157362
+s226794
+
+N/Users/saku/Library/MobileDevice/Provisioning Profiles/145C10AE-4C51-4A21-8994-F1B5F01DCE5E.mobileprovision
+c000000004ED247130000000000001CD9
+t1322403603
+s7385
+
+N/var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch.gch
+t1322403858
+s10184604
+
+N/var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch.gch
+t1322403858
+s10647452
+
+Nplaycam-Info.plist
+c000000004ED21FD0000000000000038D
+t1322393552
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies344098167#344098167#0(0"0(0#1#0"8624457408#0"0#
+
+CCodeSign /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app
+s344098169.018683
+e344098172.114241
+r1
+xCodeSign
+x/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app
+lSLF07#2@41"CodeSign build/Debug-iphoneos/playcam.app344098169#344098172#0(0"0(0#0#66"/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app8624249600#640"    cd /Users/saku/Documents/iOS/playcam    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Sakunthala Panditharatne (7AMR7XC24V)" --resource-rules=/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/ResourceRules.plist --entitlements /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam.xcent /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIAuthenticationDialog.o /Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344096659.095182
+e344096659.471814
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIAuthenticationDialog.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m344096659#344096659#0(0"0(0#0#67"/Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m8620822464#1715"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIAuthenticationDialog.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDataCompressor.o /Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344096659.135800
+e344096659.281061
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDataCompressor.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m344096659#344096659#0(0"0(0#0#61"/Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m8619768064#1703"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDataCompressor.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDataDecompressor.o /Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344096659.281179
+e344096659.417770
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDataDecompressor.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m344096659#344096659#0(0"0(0#0#63"/Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m8626168928#1707"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDataDecompressor.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDownloadCache.o /Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344096659.417887
+e344096659.731635
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDownloadCache.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m344096659#344096659#0(0"0(0#0#60"/Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m8621663840#1701"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIDownloadCache.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIFormDataRequest.o /Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344096659.471926
+e344096659.648802
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIFormDataRequest.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m344096659#344096659#0(0"0(0#0#62"/Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m8620812128#1705"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIFormDataRequest.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIHTTPRequest.o /Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344096659.648920
+e344096663.283654
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIHTTPRequest.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m344096659#344096663#0(0"0(0#0#58"/Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m8623747168#1697"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIHTTPRequest.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIInputStream.o /Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344096659.731756
+e344096659.837798
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIInputStream.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m344096659#344096659#0(0"0(0#0#58"/Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m8624020000#1697"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASIInputStream.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASINetworkQueue.o /Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344096659.837913
+e344096660.044325
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASINetworkQueue.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m344096659#344096660#0(0"0(0#0#59"/Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m8618778848#1699"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/ASINetworkQueue.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/PhotoSettingsViewController.o /Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344098168.458095
+e344098168.687536
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/PhotoSettingsViewController.o
+x/Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m344098168#344098168#0(0"0(0#0#71"/Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m8621202592#1723"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/PhotoSettingsViewController.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/Reachability.o /Users/saku/Documents/iOS/playcam/Classes/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344096660.044561
+e344096660.215680
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/Reachability.o
+x/Users/saku/Documents/iOS/playcam/Classes/Reachability.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/saku/Documents/iOS/playcam/Classes/Reachability.m344096660#344096660#0(0"0(0#0#56"/Users/saku/Documents/iOS/playcam/Classes/Reachability.m8626048480#1693"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/Reachability.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/Reachability.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/main.o /Users/saku/Documents/iOS/playcam/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344096658.808446
+e344096658.900584
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/main.o
+x/Users/saku/Documents/iOS/playcam/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/saku/Documents/iOS/playcam/main.m344096658#344096658#0(0"0(0#0#40"/Users/saku/Documents/iOS/playcam/main.m8614218656#1669"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/main.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcamAppDelegate.o /Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344096658.809651
+e344096658.942561
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcamAppDelegate.o
+x/Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m344096658#344096658#0(0"0(0#0#62"/Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m8602734432#1705"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcamAppDelegate.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcamViewController.o /Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344097203.953742
+e344097204.057615
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcamViewController.o
+x/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m: In function '-[playcamViewController openCamera]':
+o/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m:16: warning: class 'playcamViewController' does not implement the 'UIImagePickerControllerDelegate' protocol
+lSLF07#2@73"Compile /Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m344097203#344097204#0(293"/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m: In function '-[playcamViewController openCamera]':/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m:16: warning: class 'playcamViewController' does not implement the 'UIImagePickerControllerDelegate' protocol1(22@95"Class 'playcamViewController' does not implement the 'UIImagePickerControllerDelegate' protocol344097204#118#175#0(6@65"/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m344096316#16#0#16#0#45"class '*' does not implement the '*' protocol0(0#0#65"/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m8620285920#1711"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcamViewController.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIAuthenticationDialog.o /Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344096660.600685
+e344096660.846668
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIAuthenticationDialog.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m344096660#344096660#0(0"0(0#0#67"/Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m8622400128#1715"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIAuthenticationDialog.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIAuthenticationDialog.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDataCompressor.o /Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344096660.846781
+e344096660.955576
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDataCompressor.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m344096660#344096660#0(0"0(0#0#61"/Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m8621694080#1703"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIDataCompressor.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDataCompressor.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDataDecompressor.o /Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344096660.955689
+e344096661.088678
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDataDecompressor.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m344096660#344096661#0(0"0(0#0#63"/Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m8619247232#1707"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIDataDecompressor.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDataDecompressor.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDownloadCache.o /Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344096661.088796
+e344096661.354362
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDownloadCache.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m344096661#344096661#0(0"0(0#0#60"/Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m8614302944#1701"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIDownloadCache.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIDownloadCache.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIFormDataRequest.o /Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344096661.354482
+e344096661.587083
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIFormDataRequest.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m344096661#344096661#0(0"0(0#0#62"/Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m8626068096#1705"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIFormDataRequest.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIFormDataRequest.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIHTTPRequest.o /Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344096661.587333
+e344096663.776547
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIHTTPRequest.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m344096661#344096663#0(0"0(0#0#58"/Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m8624261920#1697"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIHTTPRequest.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIHTTPRequest.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIInputStream.o /Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344096663.283822
+e344096663.381609
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIInputStream.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m344096663#344096663#0(0"0(0#0#58"/Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m8624336896#1697"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASIInputStream.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASIInputStream.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASINetworkQueue.o /Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344096663.381755
+e344096663.545998
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASINetworkQueue.o
+x/Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m344096663#344096663#0(0"0(0#0#59"/Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m8624328256#1699"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/ASINetworkQueue.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/ASINetworkQueue.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/PhotoSettingsViewController.o /Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344098168.526265
+e344098168.698450
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/PhotoSettingsViewController.o
+x/Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m344098168#344098168#0(0"0(0#0#71"/Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m8619899648#1723"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/PhotoSettingsViewController.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/Reachability.o /Users/saku/Documents/iOS/playcam/Classes/Reachability.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344096663.546120
+e344096663.689162
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/Reachability.o
+x/Users/saku/Documents/iOS/playcam/Classes/Reachability.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/saku/Documents/iOS/playcam/Classes/Reachability.m344096663#344096663#0(0"0(0#0#56"/Users/saku/Documents/iOS/playcam/Classes/Reachability.m8618124000#1693"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/Reachability.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/Reachability.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/main.o /Users/saku/Documents/iOS/playcam/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344096660.215809
+e344096660.284713
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/main.o
+x/Users/saku/Documents/iOS/playcam/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/saku/Documents/iOS/playcam/main.m344096660#344096660#0(0"0(0#0#40"/Users/saku/Documents/iOS/playcam/main.m8622218944#1669"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/main.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcamAppDelegate.o /Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344096660.284823
+e344096660.380206
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcamAppDelegate.o
+x/Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m344096660#344096660#0(0"0(0#0#62"/Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m8625767392#1705"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/playcamAppDelegate.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcamAppDelegate.o0#
+
+CCompileC build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcamViewController.o /Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344097204.058638
+e344097204.175818
+r1
+xCompileC
+xbuild/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcamViewController.o
+x/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m: In function '-[playcamViewController openCamera]':
+o/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m:16: warning: class 'playcamViewController' does not implement the 'UIImagePickerControllerDelegate' protocol
+lSLF07#2@73"Compile /Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m344097204#344097204#0(293"/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m: In function '-[playcamViewController openCamera]':/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m:16: warning: class 'playcamViewController' does not implement the 'UIImagePickerControllerDelegate' protocol1(22@95"Class 'playcamViewController' does not implement the 'UIImagePickerControllerDelegate' protocol344097204#118#175#0(6@65"/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m344096316#16#0#16#0#45"class '*' does not implement the '*' protocol0(0#0#65"/Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m8621833088#1711"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -include /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch -c /Users/saku/Documents/iOS/playcam/Classes/playcamViewController.m -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcamViewController.o0#
+
+CCompileXIB /Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.xib
+s344098167.576751
+e344098168.455510
+r1
+xCompileXIB
+x/Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.xib
+lSLF07#2@50"CompileXIB Classes/PhotoSettingsViewController.xib344098167#344098168#0(0"0(0#0#73"/Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.xib8634048608#569"    cd /Users/saku/Documents/iOS/playcam    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/PhotoSettingsViewController.nib /Users/saku/Documents/iOS/playcam/Classes/PhotoSettingsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/saku/Documents/iOS/playcam/MainWindow.xib
+s344096653.694184
+e344096654.481286
+r1
+xCompileXIB
+x/Users/saku/Documents/iOS/playcam/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib344096653#344096654#0(0"0(0#0#48"/Users/saku/Documents/iOS/playcam/MainWindow.xib8603666656#527"    cd /Users/saku/Documents/iOS/playcam    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/MainWindow.nib /Users/saku/Documents/iOS/playcam/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/saku/Documents/iOS/playcam/playcamViewController.xib
+s344098167.575626
+e344098168.457448
+r1
+xCompileXIB
+x/Users/saku/Documents/iOS/playcam/playcamViewController.xib
+lSLF07#2@36"CompileXIB playcamViewController.xib344098167#344098168#0(0"0(0#0#59"/Users/saku/Documents/iOS/playcam/playcamViewController.xib8623625440#549"    cd /Users/saku/Documents/iOS/playcam    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playcamViewController.nib /Users/saku/Documents/iOS/playcam/playcamViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playmail.png playmail.png
+s344096654.591865
+e344096656.172038
+r1
+xCopyPNGFile
+x/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playmail.png
+xplaymail.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/playcam.app/playmail.png playmail.png344096654#344096656#0(0"0(0#0#46"/Users/saku/Documents/iOS/playcam/playmail.png8615164000#449"    cd /Users/saku/Documents/iOS/playcam    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/saku/Documents/iOS/playcam/playmail.png /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playmail.png0#
+
+CCpResource build/Debug-iphoneos/playcam.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s344096653.668899
+e344096653.693852
+r1
+xCpResource
+xbuild/Debug-iphoneos/playcam.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist344096653#344096653#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist5922070114188801024#484"    cd /Users/saku/Documents/iOS/playcam    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app0#
+
+CCreateUniversalBinary /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playcam normal "armv6 armv7"
+s344098168.797879
+e344098168.803069
+r1
+xCreateUniversalBinary
+x/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playcam
+xnormal
+xarmv6 armv7
+lSLF07#2@83"CreateUniversalBinary build/Debug-iphoneos/playcam.app/playcam normal "armv6 armv7"344098168#344098168#0(0"0(0#0#45"/Users/saku/Documents/iOS/playcam/armv6 armv78627778496#498"    cd /Users/saku/Documents/iOS/playcam    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcam /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcam -output /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playcam0#
+
+CGenerateDSYMFile /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app.dSYM /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playcam
+s344098168.803180
+e344098169.010494
+r1
+xGenerateDSYMFile
+x/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app.dSYM
+x/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playcam
+lSLF07#2@95"GenerateDSYMFile build/Debug-iphoneos/playcam.app.dSYM build/Debug-iphoneos/playcam.app/playcam344098168#344098169#0(0"0(0#0#74"/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playcam8626133760#347"    cd /Users/saku/Documents/iOS/playcam    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/playcam -o /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app.dSYM0#
+
+CLd /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcam normal armv6
+s344098168.687653
+e344098168.797076
+r1
+xLd
+x/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcam
+xnormal
+xarmv6
+lSLF07#2@116"Link /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcam344098168#344098168#0(0"0(0#0#0"8628977184#920"    cd /Users/saku/Documents/iOS/playcam    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -filelist /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcam.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -framework SystemConfiguration -framework MobileCoreServices -lz -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv6/playcam0#
+
+CLd /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcam normal armv7
+s344098168.700224
+e344098168.797792
+r1
+xLd
+x/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcam
+xnormal
+xarmv7
+lSLF07#2@116"Link /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcam344098168#344098168#0(0"0(0#0#0"8628344032#920"    cd /Users/saku/Documents/iOS/playcam    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -filelist /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcam.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -framework SystemConfiguration -framework MobileCoreServices -lz -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/Objects-normal/armv7/playcam0#
+
+CProcessInfoPlistFile /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/Info.plist playcam-Info.plist
+s344096653.669993
+e344096653.694107
+r1
+xProcessInfoPlistFile
+x/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/Info.plist
+xplaycam-Info.plist
+lSLF07#2@26"Process playcam-Info.plist344096653#344096653#0(0"0(0#0#52"/Users/saku/Documents/iOS/playcam/playcam-Info.plist8618151808#542"    cd /Users/saku/Documents/iOS/playcam    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility playcam-Info.plist -genpkginfo /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/ResourceRules.plist -o /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/Info.plist0#
+
+CProcessPCH /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch.gch playcam_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s344096656.172180
+e344096658.436130
+r1
+xProcessPCH
+x/var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch.gch
+xplaycam_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile playcam_Prefix.pch344096656#344096658#0(0"0(0#0#52"/Users/saku/Documents/iOS/playcam/playcam_Prefix.pch8608620480#1572"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv6 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -c /Users/saku/Documents/iOS/playcam/playcam_Prefix.pch -o /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-drwmbyiipmnnwmesgdnznthatubs/playcam_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch.gch playcam_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s344096656.173268
+e344096658.808313
+r1
+xProcessPCH
+x/var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch.gch
+xplaycam_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile playcam_Prefix.pch344096656#344096658#0(0"0(0#0#52"/Users/saku/Documents/iOS/playcam/playcam_Prefix.pch8625998688#1572"    cd /Users/saku/Documents/iOS/playcam    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-generated-files.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-own-target-headers.hmap -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-all-target-headers.hmap -iquote /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam-project-headers.hmap -F/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos -I/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/include -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources/armv7 -I/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/DerivedSources -c /Users/saku/Documents/iOS/playcam/playcam_Prefix.pch -o /var/folders/Yu/YurgMmUUHWWpysOEIdqD4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/playcam_Prefix-emgpehqedfaduebvjuooejppegyi/playcam_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/saku/Library/MobileDevice/Provisioning Profiles/145C10AE-4C51-4A21-8994-F1B5F01DCE5E.mobileprovision" /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/embedded.mobileprovision
+s344096664.951224
+e344096664.955989
+r1
+xProcessProductPackaging
+x/Users/saku/Library/MobileDevice/Provisioning Profiles/145C10AE-4C51-4A21-8994-F1B5F01DCE5E.mobileprovision
+x/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/embedded.mobileprovision
+lSLF07#2@191"ProcessProductPackaging "/Users/saku/Library/MobileDevice/Provisioning Profiles/145C10AE-4C51-4A21-8994-F1B5F01DCE5E.mobileprovision" build/Debug-iphoneos/playcam.app/embedded.mobileprovision344096664#344096664#0(0"0(0#0#91"/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/embedded.mobileprovision8620942048#412"    cd /Users/saku/Documents/iOS/playcam    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/saku/Library/MobileDevice/Provisioning Profiles/145C10AE-4C51-4A21-8994-F1B5F01DCE5E.mobileprovision" -o /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam.xcent
+s344096664.960395
+e344096665.003637
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam.xcent
+lSLF07#2@175"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/playcam.build/Debug-iphoneos/playcam.build/playcam.xcent344096664#344096665#0(0"0(0#0#96"/Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam.xcent8618721216#422"    cd /Users/saku/Documents/iOS/playcam    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/saku/Documents/iOS/playcam/build/playcam.build/Debug-iphoneos/playcam.build/playcam.xcent0#
+
+CTouch /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app
+s344098169.010725
+e344098169.018471
+r1
+xTouch
+x/Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app
+lSLF07#2@72"Touch /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app344098169#344098169#0(0"0(0#0#0"8624318048#254"    cd /Users/saku/Documents/iOS/playcam    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/saku/Documents/iOS/playcam/build/Debug-iphoneos/playcam.app0#
+

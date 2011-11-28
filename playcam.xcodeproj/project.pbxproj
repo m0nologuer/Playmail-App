@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* playcamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* playcamAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* playcamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* playcamViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* playcamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* playcamViewController.m */; };
+		30A34E4A148257C000255943 /* PhotoSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A34E48148257C000255943 /* PhotoSettingsViewController.m */; };
+		30A34E4B148257C000255943 /* PhotoSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A34E49148257C000255943 /* PhotoSettingsViewController.xib */; };
+		30A34E601482581700255943 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A34E4D1482581700255943 /* ASIAuthenticationDialog.m */; };
+		30A34E611482581700255943 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A34E501482581700255943 /* ASIDataCompressor.m */; };
+		30A34E621482581700255943 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A34E521482581700255943 /* ASIDataDecompressor.m */; };
+		30A34E631482581700255943 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A34E541482581700255943 /* ASIDownloadCache.m */; };
+		30A34E641482581700255943 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A34E561482581700255943 /* ASIFormDataRequest.m */; };
+		30A34E651482581700255943 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A34E581482581700255943 /* ASIHTTPRequest.m */; };
+		30A34E661482581700255943 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A34E5C1482581700255943 /* ASIInputStream.m */; };
+		30A34E671482581700255943 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A34E5E1482581700255943 /* ASINetworkQueue.m */; };
+		30A34E7D14825AD600255943 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A34E7C14825AD600255943 /* Reachability.m */; };
+		30A34E8214825AEB00255943 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A34E8114825AEB00255943 /* CFNetwork.framework */; };
+		30A34E9F14825B2B00255943 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A34E9E14825B2B00255943 /* SystemConfiguration.framework */; };
+		30A34EA314825B4A00255943 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A34EA214825B4A00255943 /* MobileCoreServices.framework */; };
+		30A34EA714825B5300255943 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A34EA614825B5300255943 /* libz.dylib */; };
+		30A34EE014827BD300255943 /* playmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A34EDF14827BD300255943 /* playmail.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* playcamAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playcamAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* playcamAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playcamAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* playcam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playcam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* playcamViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = playcamViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* playcamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playcamViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* playcamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playcamViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30A34E47148257C000255943 /* PhotoSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSettingsViewController.h; sourceTree = "<group>"; };
+		30A34E48148257C000255943 /* PhotoSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSettingsViewController.m; sourceTree = "<group>"; };
+		30A34E49148257C000255943 /* PhotoSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhotoSettingsViewController.xib; path = Classes/PhotoSettingsViewController.xib; sourceTree = "<group>"; };
+		30A34E4C1482581700255943 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		30A34E4D1482581700255943 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		30A34E4E1482581700255943 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		30A34E4F1482581700255943 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		30A34E501482581700255943 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		30A34E511482581700255943 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		30A34E521482581700255943 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		30A34E531482581700255943 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		30A34E541482581700255943 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		30A34E551482581700255943 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		30A34E561482581700255943 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		30A34E571482581700255943 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		30A34E581482581700255943 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		30A34E591482581700255943 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		30A34E5A1482581700255943 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		30A34E5B1482581700255943 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		30A34E5C1482581700255943 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		30A34E5D1482581700255943 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		30A34E5E1482581700255943 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		30A34E5F1482581700255943 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		30A34E7B14825AD600255943 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		30A34E7C14825AD600255943 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		30A34E8114825AEB00255943 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		30A34E9E14825B2B00255943 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		30A34EA214825B4A00255943 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		30A34EA614825B5300255943 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		30A34EDF14827BD300255943 /* playmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playmail.png; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* playcam_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playcam_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* playcam-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "playcam-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				30A34E8214825AEB00255943 /* CFNetwork.framework in Frameworks */,
+				30A34E9F14825B2B00255943 /* SystemConfiguration.framework in Frameworks */,
+				30A34EA314825B4A00255943 /* MobileCoreServices.framework in Frameworks */,
+				30A34EA714825B5300255943 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30A34E681482581B00255943 /* ASI */,
+				30A34E47148257C000255943 /* PhotoSettingsViewController.h */,
+				30A34E48148257C000255943 /* PhotoSettingsViewController.m */,
+				1D3623240D0F684500981E51 /* playcamAppDelegate.h */,
+				1D3623250D0F684500981E51 /* playcamAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* playcamViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* playcamViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* playcam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* playcam_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30A34EDF14827BD300255943 /* playmail.png */,
+				30A34E49148257C000255943 /* PhotoSettingsViewController.xib */,
+				2899E5210DE3E06400AC0155 /* playcamViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* playcam-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30A34E8114825AEB00255943 /* CFNetwork.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				30A34E9E14825B2B00255943 /* SystemConfiguration.framework */,
+				30A34EA214825B4A00255943 /* MobileCoreServices.framework */,
+				30A34EA614825B5300255943 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30A34E681482581B00255943 /* ASI */ = {
+			isa = PBXGroup;
+			children = (
+				30A34E7B14825AD600255943 /* Reachability.h */,
+				30A34E7C14825AD600255943 /* Reachability.m */,
+				30A34E4C1482581700255943 /* ASIAuthenticationDialog.h */,
+				30A34E4D1482581700255943 /* ASIAuthenticationDialog.m */,
+				30A34E4E1482581700255943 /* ASICacheDelegate.h */,
+				30A34E4F1482581700255943 /* ASIDataCompressor.h */,
+				30A34E501482581700255943 /* ASIDataCompressor.m */,
+				30A34E511482581700255943 /* ASIDataDecompressor.h */,
+				30A34E521482581700255943 /* ASIDataDecompressor.m */,
+				30A34E531482581700255943 /* ASIDownloadCache.h */,
+				30A34E541482581700255943 /* ASIDownloadCache.m */,
+				30A34E551482581700255943 /* ASIFormDataRequest.h */,
+				30A34E561482581700255943 /* ASIFormDataRequest.m */,
+				30A34E571482581700255943 /* ASIHTTPRequest.h */,
+				30A34E581482581700255943 /* ASIHTTPRequest.m */,
+				30A34E591482581700255943 /* ASIHTTPRequestConfig.h */,
+				30A34E5A1482581700255943 /* ASIHTTPRequestDelegate.h */,
+				30A34E5B1482581700255943 /* ASIInputStream.h */,
+				30A34E5C1482581700255943 /* ASIInputStream.m */,
+				30A34E5D1482581700255943 /* ASINetworkQueue.h */,
+				30A34E5E1482581700255943 /* ASINetworkQueue.m */,
+				30A34E5F1482581700255943 /* ASIProgressDelegate.h */,
+			);
+			name = ASI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* playcam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "playcam" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = playcam;
+			productName = playcam;
+			productReference = 1D6058910D05DD3D006BFB54 /* playcam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "playcam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* playcam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* playcamViewController.xib in Resources */,
+				30A34E4B148257C000255943 /* PhotoSettingsViewController.xib in Resources */,
+				30A34EE014827BD300255943 /* playmail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* playcamAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* playcamViewController.m in Sources */,
+				30A34E4A148257C000255943 /* PhotoSettingsViewController.m in Sources */,
+				30A34E601482581700255943 /* ASIAuthenticationDialog.m in Sources */,
+				30A34E611482581700255943 /* ASIDataCompressor.m in Sources */,
+				30A34E621482581700255943 /* ASIDataDecompressor.m in Sources */,
+				30A34E631482581700255943 /* ASIDownloadCache.m in Sources */,
+				30A34E641482581700255943 /* ASIFormDataRequest.m in Sources */,
+				30A34E651482581700255943 /* ASIHTTPRequest.m in Sources */,
+				30A34E661482581700255943 /* ASIInputStream.m in Sources */,
+				30A34E671482581700255943 /* ASINetworkQueue.m in Sources */,
+				30A34E7D14825AD600255943 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = playcam_Prefix.pch;
+				INFOPLIST_FILE = "playcam-Info.plist";
+				PRODUCT_NAME = playcam;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = playcam_Prefix.pch;
+				INFOPLIST_FILE = "playcam-Info.plist";
+				PRODUCT_NAME = playcam;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "playcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "playcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

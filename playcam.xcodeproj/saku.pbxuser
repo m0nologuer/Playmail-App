@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* playcamAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {743, 311}}";
+			sepNavSelRange = "{350, 0}";
+			sepNavVisRange = "{0, 494}";
+		};
+	};
+	1D3623250D0F684500981E51 /* playcamAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 1222}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 551}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* playcam */ = {
+		activeExec = 0;
+		executables = (
+			30A34E3A1482575000255943 /* playcam */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* playcamViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {743, 311}}";
+			sepNavSelRange = "{254, 0}";
+			sepNavVisRange = "{0, 309}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* playcamViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {824, 1092}}";
+			sepNavSelRange = "{159, 39}";
+			sepNavVisRange = "{832, 849}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 30A34E3A1482575000255943 /* playcam */;
+		activeSDKPreference = iphoneos4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* playcam */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* playcam */,
+		);
+		codeSenseManager = 30A34E451482575E00255943 /* Code sense */;
+		executables = (
+			30A34E3A1482575000255943 /* playcam */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					565,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 344086352;
+			PBXWorkspaceStateSaveDate = 344086352;
+		};
+		perUserProjectItems = {
+			30A34EB214825C4500255943 /* PBXTextBookmark */ = 30A34EB214825C4500255943 /* PBXTextBookmark */;
+			30A34EB314825C4500255943 /* PBXTextBookmark */ = 30A34EB314825C4500255943 /* PBXTextBookmark */;
+			30A34EB414825C4500255943 /* PBXTextBookmark */ = 30A34EB414825C4500255943 /* PBXTextBookmark */;
+			30A34EB614825C4500255943 /* PBXTextBookmark */ = 30A34EB614825C4500255943 /* PBXTextBookmark */;
+			30A34EB714825C4500255943 /* PBXTextBookmark */ = 30A34EB714825C4500255943 /* PBXTextBookmark */;
+			30A34EB814825C4500255943 /* PBXTextBookmark */ = 30A34EB814825C4500255943 /* PBXTextBookmark */;
+			30A34EBB14825C4500255943 /* PBXTextBookmark */ = 30A34EBB14825C4500255943 /* PBXTextBookmark */;
+			30A34ECC14825FE000255943 /* PBXTextBookmark */ = 30A34ECC14825FE000255943 /* PBXTextBookmark */;
+			30A34EE114827C5300255943 /* PBXBookmark */ = 30A34EE114827C5300255943 /* PBXBookmark */;
+			30A34F0A1482801200255943 /* PBXTextBookmark */ = 30A34F0A1482801200255943 /* PBXTextBookmark */;
+			30A34F13148281B500255943 /* PBXTextBookmark */ = 30A34F13148281B500255943 /* PBXTextBookmark */;
+			30A34F14148281B500255943 /* PBXTextBookmark */ = 30A34F14148281B500255943 /* PBXTextBookmark */;
+			30A34F40148286E000255943 /* PBXTextBookmark */ = 30A34F40148286E000255943 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 30A34E441482575E00255943 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	30A34E3A1482575000255943 /* playcam */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = playcam;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	30A34E441482575E00255943 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	30A34E451482575E00255943 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	30A34E47148257C000255943 /* PhotoSettingsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {743, 364}}";
+			sepNavSelRange = "{430, 9}";
+			sepNavVisRange = "{3, 473}";
+		};
+	};
+	30A34E48148257C000255943 /* PhotoSettingsViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{4190, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4241, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4291, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 5050}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {775, 2301}}";
+			sepNavSelRange = "{636, 0}";
+			sepNavVisRange = "{312, 833}";
+		};
+	};
+	30A34E4C1482581700255943 /* ASIAuthenticationDialog.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 507}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 713}";
+		};
+	};
+	30A34E581482581700255943 /* ASIHTTPRequest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {523, 66300}}";
+			sepNavSelRange = "{421, 0}";
+			sepNavVisRange = "{232, 424}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	30A34E5F1482581700255943 /* ASIProgressDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 559}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 744}";
+		};
+	};
+	30A34EB214825C4500255943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30A34E5F1482581700255943 /* ASIProgressDelegate.h */;
+		name = "ASIProgressDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 744;
+		vrLoc = 0;
+	};
+	30A34EB314825C4500255943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30A34E4C1482581700255943 /* ASIAuthenticationDialog.h */;
+		name = "ASIAuthenticationDialog.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 713;
+		vrLoc = 0;
+	};
+	30A34EB414825C4500255943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30A34EB514825C4500255943 /* ChallengeViewController.m */;
+		name = "ChallengeViewController.m: 41";
+		rLen = 0;
+		rLoc = 1194;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
+	};
+	30A34EB514825C4500255943 /* ChallengeViewController.m */ = {
+		isa = PBXFileReference;
+		name = ChallengeViewController.m;
+		path = "/Users/saku/Documents/iOS/phtgrphr1 copy/Classes/ChallengeViewController.m";
+		sourceTree = "<absolute>";
+	};
+	30A34EB614825C4500255943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* playcamAppDelegate.m */;
+		name = "playcamAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 0;
+	};
+	30A34EB714825C4500255943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30A34E581482581700255943 /* ASIHTTPRequest.m */;
+		name = "ASIHTTPRequest.m: 13";
+		rLen = 0;
+		rLoc = 398;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 0;
+	};
+	30A34EB814825C4500255943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* playcamAppDelegate.h */;
+		name = "playcamAppDelegate.h: 16";
+		rLen = 0;
+		rLoc = 350;
+		rType = 0;
+		vrLen = 494;
+		vrLoc = 0;
+	};
+	30A34EBB14825C4500255943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* playcamViewController.h */;
+		name = "playcamViewController.h: 11";
+		rLen = 0;
+		rLoc = 254;
+		rType = 0;
+		vrLen = 309;
+		vrLoc = 0;
+	};
+	30A34ECC14825FE000255943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30A34ECD14825FE000255943 /* 20110921221116_create_entries.rb */;
+		name = "20110921221116_create_entries.rb: 8";
+		rLen = 135;
+		rLoc = 196;
+		rType = 0;
+		vrLen = 440;
+		vrLoc = 0;
+	};
+	30A34ECD14825FE000255943 /* 20110921221116_create_entries.rb */ = {
+		isa = PBXFileReference;
+		name = 20110921221116_create_entries.rb;
+		path = /Users/saku/Documents/rails/phtgrphr_backend/db/migrate/20110921221116_create_entries.rb;
+		sourceTree = "<absolute>";
+	};
+	30A34EE114827C5300255943 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 30A34EDF14827BD300255943 /* playmail.png */;
+	};
+	30A34F0A1482801200255943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* playcamViewController.m */;
+		name = "playcamViewController.m: 6";
+		rLen = 39;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 849;
+		vrLoc = 832;
+	};
+	30A34F13148281B500255943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30A34E47148257C000255943 /* PhotoSettingsViewController.h */;
+		name = "PhotoSettingsViewController.h: 20";
+		rLen = 9;
+		rLoc = 430;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 3;
+	};
+	30A34F14148281B500255943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30A34E48148257C000255943 /* PhotoSettingsViewController.m */;
+		name = "PhotoSettingsViewController.m: 43";
+		rLen = 0;
+		rLoc = 1279;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 312;
+	};
+	30A34F40148286E000255943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30A34E48148257C000255943 /* PhotoSettingsViewController.m */;
+		name = "PhotoSettingsViewController.m: 25";
+		rLen = 0;
+		rLoc = 636;
+		rType = 0;
+		vrLen = 833;
+		vrLoc = 312;
+	};
+}
